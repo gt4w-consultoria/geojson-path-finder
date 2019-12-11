@@ -14,10 +14,10 @@
   "author": "Per Liedman <per@liedman.net>",
   "license": "ISC",
   "dependencies": {
+    "@turf/turf": "5.1.6",
     "tap": "12.0.0",
     "tap-spec": "5.0.0",
     "tinyqueue": "2.0.0",
-    "turf": "3.0.14",
     "turf-point": "2.0.1"
   },
   "devDependencies": {}
