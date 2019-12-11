@@ -1,9 +1,8 @@
 'use strict';
+import roundCoord from './round-coord';
+import {explode} from 'turf';
 
-var explode = require('@turf/explode'),
-    roundCoord = require('./round-coord');
-
-module.exports = topology;
+export default  topology;
 
 function geoJsonReduce(geojson, fn, seed) {
     if (geojson.type === 'FeatureCollection') {

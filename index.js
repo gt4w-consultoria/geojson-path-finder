@@ -1,11 +1,11 @@
 'use strict';
 
-var findPath = require('./dijkstra'),
-    preprocess = require('./preprocessor'),
-    compactor = require('./compactor'),
-    roundCoord = require('./round-coord');
+import findPath from './dijkstra';
+import preprocess from './preprocessor';
+import compactor from './compactor';
+import roundCoord from './round-coord';
 
-module.exports = PathFinder;
+export default PathFinder;
 
 function PathFinder(graph, options) {    
     options = options || {};

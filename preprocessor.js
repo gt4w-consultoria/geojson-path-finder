@@ -1,12 +1,11 @@
 'use strict';
 
-var topology = require('./topology'),
-    compactor = require('./compactor'),
-    distance = require('@turf/distance').default,
-    roundCoord = require('./round-coord'),
-    point = require('turf-point');
+import topology from './topology';
+import compactor from './compactor';
+import distance from '@turf/distance';
+import point from 'turf-point';
 
-module.exports = function preprocess(graph, options) {
+export default function preprocess(graph, options) {
     options = options || {};
     var weightFn = options.weightFn || function defaultWeightFn(a, b) {
             return distance(point(a), point(b));
