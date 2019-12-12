@@ -14,6 +14,8 @@ See the [GeoJSON Path Finder demo](http://www.liedman.net/geojson-path-finder/).
 
 ```
 npm install --save geojson-path-finder
+yarn add geojson-path-finder
+
 ```
 
 ## API
@@ -21,8 +23,7 @@ npm install --save geojson-path-finder
 Create a path finding object:
 
 ```javascript
-var PathFinder = require('geojson-path-finder'),
-    geojson = require('./network.json');
+import PathFinder from 'geojson-path-finder';
 
 var pathFinder = new PathFinder(geojson);
 ```
