@@ -15,7 +15,6 @@ See the [GeoJSON Path Finder demo](http://www.liedman.net/geojson-path-finder/).
 ```
 npm install --save geojson-path-finder
 yarn add geojson-path-finder
-
 ```
 
 ## API
